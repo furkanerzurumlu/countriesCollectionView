@@ -13,6 +13,9 @@
 		DC821E6427DA8B8100399D6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC821E6227DA8B8100399D6B /* Main.storyboard */; };
 		DC821E6627DA8B8200399D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC821E6527DA8B8200399D6B /* Assets.xcassets */; };
 		DC821E6927DA8B8200399D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC821E6727DA8B8200399D6B /* LaunchScreen.storyboard */; };
+		DC821E7127DA8BCE00399D6B /* Ulkeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC821E7027DA8BCE00399D6B /* Ulkeler.swift */; };
+		DC821E7327DA8F4F00399D6B /* UlkeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC821E7227DA8F4F00399D6B /* UlkeCollectionViewCell.swift */; };
+		DC8A438727DCB56C001B2172 /* detayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A438627DCB56C001B2172 /* detayVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DC821E6527DA8B8200399D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC821E6827DA8B8200399D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC821E6A27DA8B8200399D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC821E7027DA8BCE00399D6B /* Ulkeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ulkeler.swift; sourceTree = "<group>"; };
+		DC821E7227DA8F4F00399D6B /* UlkeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UlkeCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC8A438627DCB56C001B2172 /* detayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detayVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				DC821E5C27DA8B8100399D6B /* AppDelegate.swift */,
 				DC821E5E27DA8B8100399D6B /* SceneDelegate.swift */,
 				DC821E6027DA8B8100399D6B /* ViewController.swift */,
+				DC821E7027DA8BCE00399D6B /* Ulkeler.swift */,
 				DC821E6227DA8B8100399D6B /* Main.storyboard */,
+				DC8A438627DCB56C001B2172 /* detayVC.swift */,
+				DC821E7227DA8F4F00399D6B /* UlkeCollectionViewCell.swift */,
 				DC821E6527DA8B8200399D6B /* Assets.xcassets */,
 				DC821E6727DA8B8200399D6B /* LaunchScreen.storyboard */,
 				DC821E6A27DA8B8200399D6B /* Info.plist */,
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC821E7127DA8BCE00399D6B /* Ulkeler.swift in Sources */,
 				DC821E6127DA8B8100399D6B /* ViewController.swift in Sources */,
 				DC821E5D27DA8B8100399D6B /* AppDelegate.swift in Sources */,
 				DC821E5F27DA8B8100399D6B /* SceneDelegate.swift in Sources */,
+				DC8A438727DCB56C001B2172 /* detayVC.swift in Sources */,
+				DC821E7327DA8F4F00399D6B /* UlkeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
